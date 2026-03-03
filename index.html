@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emilio Bensignor</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <!-- Canvas de partículas de fondo -->
+    <canvas id="particles-canvas"></canvas>
+    <!-- Spotlight cursor -->
+    <div id="spotlight"></div>
+
+    <!-- Contenedor principal con efecto fade-in -->
+    <div class="container fade-in">
+
+        <!-- Tarjeta de perfil principal -->
+        <div class="profile-card">
+
+            <!-- Sección de información personal -->
+            <div class="profile-header">
+                <!-- FOTO DE PERFIL - MODIFICAR AQUÍ -->
+                <div class="profile-image-container">
+                    <img src="images/Lio.png" alt="Emilio Bensignor" class="profile-image">
+                </div>
+
+                <!-- Nombre -->
+                <div class="profile-info">
+                    <h1 class="profile-name">Kiwi</h1>
+                    <h2 class="profile-lastname">Martinez</h2>
+                    <div class="profile-details">
+                        <p class="profile-age">Edad: 99 años</p>
+                        <p class="profile-location">📍 Zona de Residencia</p>
+                        <p class="profile-career">🎓 Tu Carrera</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna derecha -->
+            <div class="profile-content">
+
+                <!-- Bloque superior: info + habilidades -->
+                <div class="content-top">
+
+                    <div class="profile-details">
+                        <p class="profile-age">Edad: 25 años</p>
+                        <p class="profile-location">📍 Belgrano</p>
+                        <p class="profile-career">🎓 Comunicación Digital</p>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 class="section-title">
+                            <span class="material-icons">psychology</span>
+                            Habilidades
+                        </h3>
+                        <div class="skills-container">
+                            <div class="skill-item">
+                                <span class="skill-name">Música</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Programación</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Creatividad</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Videojuegos</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Bloque inferior: favoritos -->
+                <div class="content-bottom">
+
+                    <div class="favorites-row">
+
+                        <div class="favorites-section">
+                            <h3 class="section-title">
+                                <span class="material-icons">movie</span>
+                                Películas Favoritas
+                            </h3>
+                            <div class="favorites-list">
+                                <div class="favorite-item">1. Star Wars</div>
+                                <div class="favorite-item">2. Monsters Inc.</div>
+                                <div class="favorite-item">3. Whiplash</div>
+                            </div>
+                        </div>
+
+                        <div class="favorites-section">
+                            <h3 class="section-title">
+                                <span class="material-icons">music_note</span>
+                                Discos Favoritos
+                            </h3>
+                            <div class="favorites-list">
+                                <div class="favorite-item">1. Abbey Road</div>
+                                <div class="favorite-item">2. Cabildo y Juramento</div>
+                                <div class="favorite-item">3. Rocketman</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div><!-- /profile-content -->
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Emilio Bensignor · Comunicación Digital</p>
+        </footer>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
